@@ -1,39 +1,42 @@
 import { configureStore } from "@reduxjs/toolkit"
 import { Provider } from "react-redux"
-import Timer from "./Timer";
+import BtnAdd from "./components/BtnAdd";
+import Liste from "./components/Liste";
+import { Component } from "react";
 
-const initialState = { min : 2 , sec : 0 };
+const initialState = [];
 
-function decrTime({min, sec}){
-    sec = sec - 1 ;
-    if(sec < 0){
-        min = min - 1 ;
-        if(min < 0){
-            min = 0 ;
-            sec = 0 ;
-        }else {
-            sec = 59 ;
-        }
-    }
-    return {min, sec}
+function reducer(state = initialState , action){
+  const cloneState = [...state]
+  switch(action.type){
+    case "ADD" :
+      cloneState.push(action.payload)
+      return cloneState ;
+    case "DELETE" :
+      const stateFiltre = cloneState.filter(item => item !== action.payload)
+      return stateFiltre ;
+    default :
+      return state
+  }
+}
+const store = configureStore({ reducer });
+
+["un", "deux", "trois"].forEach(nb => {
+  store.dispatch({type: "ADD" , payload : nb});
+})
+
+class Projet2 extends Component{
+  render(){
+    return (
+      <Provider store={store}>
+          <h1 className="text-3xl mb-3">React + Redux + react-redux <small>class</small></h1>
+          <div>
+            <BtnAdd />
+          </div>
+          <Liste />
+      </Provider>
+    )
+  }
 }
 
-
-function reducer ( state = initialState , action ){
-    switch(action.type){
-        case "DECREMENTER" :
-            const newTime = decrTime(action.payload)
-            return { ...state , ...newTime } ;
-        default :
-            return state ;
-    }
-}
-
-const store = configureStore({reducer})
-
-export const Projet2 = () => {
-    return <Provider store={store}>
-        <h1 className="text-3xl mb-3">Timer avec Redux <small>class</small></h1>
-        <Timer />
-    </Provider>
-}
+export default Projet2 ;
