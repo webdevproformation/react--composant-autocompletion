@@ -1,0 +1,68 @@
+{
+  "articles": [
+    {
+      "id": "639229279f119f59a6c4c579",
+      "title": "elit ea voluptate veniam",
+      "body": "Fugiat voluptate deserunt occaecat sit fugiat non voluptate. Proident elit voluptate id irure irure irure eu nostrud qui ea officia ad. Nulla fugiat incididunt consequat proident ad commodo cillum mollit fugiat adipisicing magna do sunt laboris.\r\n",
+      "picture": "https://via.placeholder.com/600x300",
+      "author": "Paula Estrada",
+      "like": 102
+    },
+    {
+      "id": "639229275707bf134ae3aba5",
+      "title": "velit amet velit ex",
+      "body": "Aute dolore dolore magna dolore occaecat officia sint aute consectetur et. Culpa veniam esse sint minim Lorem nulla ut amet minim. Pariatur non mollit duis occaecat ex ullamco elit magna sunt. Proident adipisicing sit nulla ipsum ex dolore minim aliqua proident ex ullamco Lorem. Proident nostrud reprehenderit minim do nisi eiusmod esse qui. Anim dolor incididunt labore sint. Enim sunt tempor incididunt veniam tempor mollit pariatur esse minim.\r\n",
+      "picture": "https://via.placeholder.com/600x300",
+      "author": "Reynolds Hess",
+      "like": 113
+    },
+    {
+      "id": "63922927bd6bfb8fb22cfdfa",
+      "title": "consectetur non incididunt incididunt",
+      "body": "Tempor nulla labore enim veniam aliquip nulla occaecat excepteur Lorem culpa fugiat cillum. Sit minim ullamco dolor nostrud esse consequat ex in id eu enim cupidatat. Enim et consectetur occaecat reprehenderit. Anim amet reprehenderit velit et officia fugiat ad ullamco Lorem id nisi. Esse in aute consequat nulla aute velit et consectetur excepteur.\r\n",
+      "picture": "https://via.placeholder.com/600x300",
+      "author": "Gabrielle Mcclure",
+      "like": 28
+    },
+    {
+      "id": "6392292721859177996edf06",
+      "title": "sint voluptate sunt incididunt",
+      "body": "Exercitation duis veniam anim exercitation irure excepteur cupidatat. Consectetur laboris ea esse laborum in. Quis officia ipsum incididunt irure adipisicing duis et sunt elit nostrud cillum tempor.\r\n",
+      "picture": "https://via.placeholder.com/600x300",
+      "author": "Verna Page",
+      "like": 60
+    }
+  ],
+  "users": [
+    {
+      "id": "6392292790df634f3a5d015a",
+      "nom": "Aisha Yates",
+      "email": "aishayates@firewax.com",
+      "like": 22
+    },
+    {
+      "id": "6392292722654c9b7f24bf26",
+      "nom": "Branch Mccall",
+      "email": "branchmccall@firewax.com",
+      "like": 51
+    },
+    {
+      "id": "63922927a901c1a0391e0dcf",
+      "nom": "Richardson Gonzalez",
+      "email": "richardsongonzalez@firewax.com",
+      "like": 88
+    },
+    {
+      "id": "63922927634469ae093c410f",
+      "nom": "Glenna Fields",
+      "email": "glennafields@firewax.com",
+      "like": 87
+    },
+    {
+      "id": "63922927cc634cb6e7e9c0ad",
+      "nom": "Penelope Casey",
+      "email": "penelopecasey@firewax.com",
+      "like": 111
+    }
+  ]
+}
