@@ -1,5 +1,5 @@
 import { BtnAdd } from "./components/BtnAdd";
-import { configureStore , applyMiddleware } from "@reduxjs/toolkit"
+import { configureStore } from "@reduxjs/toolkit"
 import { Provider } from "react-redux"
 import { Liste } from "./components/Liste";
 
