@@ -3,7 +3,7 @@ import { ButtonAjouter } from "./composants/ButtonAjouter"
 import { Liste } from "./composants/Liste"
 import { reducer } from "./reducer"
 import { Component } from "react"
-import {add ,revert} from "./action"
+import { add } from "./action"
 import { ButtonRevert } from "./composants/ButtonRevert"
 import { InputSearch } from "./composants/InputSearch"
 
