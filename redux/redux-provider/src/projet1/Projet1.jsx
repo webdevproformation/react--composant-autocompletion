@@ -1,5 +1,5 @@
 import { BtnAdd } from "./components/BtnAdd";
-import { configureStore } from "@reduxjs/toolkit"
+import { configureStore , applyMiddleware } from "@reduxjs/toolkit"
 import { Provider } from "react-redux"
 import { Liste } from "./components/Liste";
 
@@ -18,8 +18,7 @@ function reducer(state = initialState , action){
       return state
   }
 }
-
-const store = configureStore({reducer});
+const store = configureStore({ reducer });
 
 ["un", "deux", "trois"].forEach(nb => {
   store.dispatch({type: "ADD" , payload : nb});
