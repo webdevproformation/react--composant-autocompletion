@@ -16,6 +16,10 @@ cd back
 npm run dev
 ```
 
+## Rendu
+
+![](./rendu.png)
+
 
 ## Front est réalisé avec React 
 
