@@ -1,0 +1,48 @@
+.entete{
+    background: url("fond.webp");
+    background-size: cover;
+    background-position: 50% 30%;
+    height:250px;
+    color :white;
+    text-align: center;
+   
+    a, span{
+        color:inherit; 
+    }
+    .marque{
+        display: block;
+        font-size: 2rem;
+        @media screen and (min-width:400px) {
+            font-size: 3rem;
+        }
+        padding: 1.1em 0 0.3em 0;
+        @media screen and (min-width:700px) {
+            padding: 1.4em 0;
+        }
+    }
+    nav{
+        @media screen and (min-width:700px) {
+            display: flex;
+            justify-content: flex-end;
+            max-width:1200px;
+            padding-right: 20px;
+            margin: 0 auto;
+        } 
+    }
+    ul{
+        @media screen and (min-width:700px) {
+            display: flex;
+        }
+        a, span{
+            cursor: pointer;
+            text-decoration: underline;
+            font-size: 1.3rem;
+            @media screen and (min-width:700px) {
+                margin-left: 20px;
+            }
+            svg{
+                margin-right: 4px;
+            }
+        }   
+    }
+}

@@ -1,0 +1,24 @@
+$vert : #4CCD99; 
+$gris : #ccc; 
+
+// mixin => variable qui contient des propriétés valeurs associées
+@mixin titrePage(){
+    text-align: center;
+    color:$gris; 
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 1em 0;
+    font-size: 1.4rem;
+    @media screen and (min-width:700px) {
+        font-size: 2rem;
+    }
+}
+
+
+@mixin msg(){
+    text-align: center;
+    color: white;  
+    border-radius: 5px;
+    margin:10px 0;
+    padding :1em 0; 
+}

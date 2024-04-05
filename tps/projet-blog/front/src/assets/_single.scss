@@ -1,0 +1,36 @@
+.single{
+    p{
+        margin: 0 0 1em 0;
+    }
+    .grille{
+        display: grid;
+        gap:20px;
+        @media screen and (min-width:700px){
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    .no-comment{
+        margin: 1em 0;
+    }
+    form{
+        border: 2px solid #999;
+        padding : 1em;
+        border-radius: 10px;
+        @media screen and (min-width:700px) {
+            width: 500px;
+            padding : 2em;
+        }
+    }
+    .commentaire{
+        h3{
+            color : $vert;
+            margin: 0.5em 0;
+            @media screen and (min-width:700px) {
+                margin: 1em 0;
+            }
+        }
+        p, footer{
+            margin:1em 0 ; 
+        }
+    }
+}
